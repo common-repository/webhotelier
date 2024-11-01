@@ -1,0 +1,38 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.donation-wrapper {
+    background-color: #fffbb7;
+    padding: 20px;
+    margin-top: 20px;
+    border: 1px dashed grey;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.donation-message {
+    margin-right: 10px;
+}
+
+.tf-radio-image label {
+    display: block !important;
+    border-bottom: 1px solid grey;
+    padding: 20px;
+    margin-bottom: 0 !important;
+}
+
+.tf-radio-image label:last-of-type {
+    border-bottom: 0;
+}
+
+.tf-radio-image label:hover {
+    background-color: #bceeff;
+}

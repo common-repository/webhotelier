@@ -1,0 +1,252 @@
+/*! 
+* Plugin Name: Webhotelier for Wordpress 
+* Plugin URI: https://wplugged.com/docs/webhotelier-for-wordpress/
+* Description:  Communicate and use webhotelier's functionalities from your Wordpress. 
+* Author: WPlugged 
+* Author URI: https://wplugged.com 
+*/
+
+/*!
+Copyright 2013 Yahoo!
+Licensed under the BSD License.
+https://github.com/yahoo/wp-webhotelier/blob/master/LICENSE.md
+*/
+
+/*!
+normalize.css v^3.0 | MIT License | git.io/normalize
+Copyright (c) Nicolas Gallagher and Jonathan Neal
+*/
+
+/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+
+.wp-webhotelier {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.wp-webhotelier *,
+.wp-webhotelier :after,
+.wp-webhotelier :before {
+    box-sizing: inherit;
+}
+
+@media all and (min-width: 0\0) and (min-resolution: 0.001dpcm) {
+    .wp-webhotelier .wp-webhotelier-select select {
+        padding-right: 0;
+    }
+    .wp-webhotelier .wp-webhotelier-select:after,
+    .wp-webhotelier .wp-webhotelier-select:before {
+        display: none;
+    }
+}
+
+.wp-webhotelier-form .wp-webhotelier-control-group {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.wp-webhotelier-form-stacked .wp-webhotelier-control-group {
+    display: block;
+}
+
+.wp-webhotelier-button:focus {
+    outline: 0;
+}
+
+.wp-webhotelier textarea {
+    overflow: auto;
+}
+
+.wp-webhotelier button,
+.wp-webhotelier input,
+.wp-webhotelier optgroup,
+.wp-webhotelier select,
+.wp-webhotelier textarea {
+    margin: 0;
+}
+
+.wp-webhotelier-button,
+.wp-webhotelier input {
+    line-height: normal;
+}
+
+.wp-webhotelier button {
+    overflow: visible;
+}
+
+.wp-webhotelier button,
+.wp-webhotelier select {
+    text-transform: none;
+}
+
+.wp-webhotelier button,
+html .wp-webhotelier input[type="button"],
+.wp-webhotelier input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+.wp-webhotelier button[disabled],
+html .wp-webhotelier input[disabled] {
+    cursor: default;
+}
+
+.wp-webhotelier button::-moz-focus-inner,
+.wp-webhotelier input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+.wp-webhotelier input[type="number"]::-webkit-inner-spin-button,
+.wp-webhotelier input[type="number"]::-webkit-outer-spin-button {
+    height: auto;
+}
+
+.wp-webhotelier-button,
+.wp-webhotelier-form input:not([type]),
+.wp-webhotelier-menu {
+    box-sizing: border-box;
+}
+
+.wp-webhotelier-fields input[type="text"],
+.wp-webhotelier-fields select {
+    padding: 0.5rem 0.6rem;
+    border: 1px solid #ccc;
+    box-shadow: inset 0 1px 3px #ddd;
+    border-radius: 4px;
+    margin: 0;
+}
+
+.wp-webhotelier-form input[type="date"],
+.wp-webhotelier-form input[type="number"],
+.wp-webhotelier-form input[type="text"],
+.wp-webhotelier-form select {
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+.wp-webhotelier-fields input:not([type]):focus,
+.wp-webhotelier-fields input[type="number"]:focus,
+.wp-webhotelier-fields input[type="text"]:focus,
+.wp-webhotelier-fields select:focus {
+    outline: 0;
+    border-color: #129fea;
+}
+
+.wp-webhotelier-fields input:not([type])[disabled],
+.wp-webhotelier-fields input[type="number"][disabled],
+.wp-webhotelier-fields input[type="text"][disabled],
+.wp-webhotelier-fields select[disabled] {
+    cursor: not-allowed;
+    background-color: #eaeded;
+    color: #cad2d3;
+}
+
+.wp-webhotelier-fields input[readonly],
+.wp-webhotelier-fields select[readonly] {
+    background-color: #eee;
+    color: #777;
+    border-color: #ccc;
+}
+
+.wp-webhotelier-fields input:focus:invalid,
+.wp-webhotelier-fields select:focus:invalid {
+    color: #b94a48;
+    border-color: #e9322d;
+}
+
+.wp-webhotelier-form select {
+    height: 2.25rem;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.wp-webhotelier-form label {
+    margin: 0.5rem 0 0.2rem;
+    display: block;
+}
+
+.wp-webhotelier-group-fluid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.wp-webhotelier-form fieldset {
+    margin: 0;
+    padding: 0.35rem 0 0.75rem;
+    border: 0;
+}
+
+.wp-webhotelier-form-stacked input:not([type]),
+.wp-webhotelier-form-stacked input[type="number"],
+.wp-webhotelier-form-stacked input[type="text"],
+.wp-webhotelier-form-stacked label,
+.wp-webhotelier-form-stacked select {
+    display: block;
+    margin: 0.5rem 0;
+    width: 100%;
+}
+
+.wp-webhotelier-form-stacked button {
+    margin: 0.5rem 0;
+}
+
+.wp-webhotelier-form .wp-webhotelier-input-rounded,
+.wp-webhotelier-form input.wp-webhotelier-input-rounded {
+    border-radius: 2rem;
+    padding: 0.5rem 1rem;
+}
+
+.wp-webhotelier-form .wp-webhotelier-help-inline,
+.wp-webhotelier-form-message-inline {
+    display: inline-block;
+    padding-left: 0.3rem;
+    color: #666;
+    vertical-align: middle;
+    font-size: 0.875rem;
+}
+
+.wp-webhotelier-form-message {
+    display: block;
+    color: #666;
+    font-size: 0.875rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .wp-webhotelier-form button[type="submit"] {
+        margin: 0.7rem 0 0;
+    }
+    .wp-webhotelier-form input:not([type]),
+    .wp-webhotelier-form input[type="number"],
+    .wp-webhotelier-form input[type="text"],
+    .wp-webhotelier-form label {
+        margin-bottom: 0.3rem;
+        display: block;
+    }
+    .wp-webhotelier-group input:not([type]),
+    .wp-webhotelier-group input[type="number"],
+    .wp-webhotelier-group input[type="text"] {
+        margin-bottom: 0;
+    }
+    .wp-webhotelier-form .wp-webhotelier-help-inline,
+    .wp-webhotelier-form-message,
+    .wp-webhotelier-form-message-inline {
+        display: block;
+        font-size: 0.75rem;
+        padding: 0.2rem 0 0.8rem;
+    }
+}
+
+.wp-webhotelier-group-fluid:last-child .wp-webhotelier-control-group {
+    margin-bottom: 1rem;
+}
+
+.wp-webhotelier .flatpickr-month select {
+    display: inline-block;
+}

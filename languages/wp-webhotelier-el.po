@@ -1,0 +1,503 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-webhotelier\n"
+"POT-Creation-Date: 2022-01-12 08:52+0200\n"
+"PO-Revision-Date: 2022-01-12 08:54+0200\n"
+"Last-Translator: Sotiris Katsaniotis <sotiris.katsaniotis@gmail.com>\n"
+"Language-Team: WPlugged\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_html__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/codestar-framework\n"
+
+#: admin/partials/wp-webhotelier-notice-markup.php:3
+#, php-format
+msgid "This is a form generator plugin exclusively for %s!"
+msgstr "Αυτή η επέκταση είναι ένας δημιουργός φορμών για το %s!"
+
+#: admin/partials/wp-webhotelier-notice-markup.php:6
+msgid ""
+"If you are not a Tourism Professional with a working relation to "
+"WebHotelier, this plugin will most probably not serve your needs."
+msgstr ""
+"Αν δεν είστε επαγγελματίας του Τουρισμού που έχει μια ενεργή συνεργασία με "
+"το WebHotelier, αυτή η επέκταση πολύ πιθανών να μην μπορεί να καλύψει τις "
+"ανάγκες σας."
+
+#: admin/partials/wp-webhotelier-paypal-code.php:4
+#, php-format
+msgid ""
+"We hope this plugin helps you incorporate %1$s's powerful platform to your "
+"WordPress website . <br> A small donation will help us keep bringing you "
+"updates and more exciting features."
+msgstr ""
+"Ελπίζουμε πως αυτό το plugin θα σας βοηθήσει να ενσωματώσετε την πανίσχυρη "
+"πλατφόρμα του %1$s στο Wordpress Website σας.  <br> Μια μικρή δωρεά θα μας "
+"βοηθήσει να συνεχίσουμε την ανάπτυξή του με συχνές αναβαθμίσεις και νέες "
+"συναρπαστικές δυνατότητες."
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:13
+msgid "Title:"
+msgstr "Τίτλος:"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:19
+msgid "Optional Title"
+msgstr "Προαιρετικός Τίτλος"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:22
+msgid "Booking URL:"
+msgstr "WebHotelier URL ξενοδοχείου:"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:31
+msgid "Nights or Checkout Date:"
+msgstr "Αριθμός νυχτών ή ημερομηνία Checkout:"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:36
+msgid "Checkout Date"
+msgstr "Hμερομηνία Checkout"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:37
+msgid "Number of Nights"
+msgstr "Αριθμός Νυχτών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:42
+#: includes/class-wp-webhotelier-helper.php:110
+msgid "Max Nights"
+msgstr "Μέγιστος αριθμός νυχτών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:52
+#: includes/class-wp-webhotelier-helper.php:117
+msgid "Max Rooms"
+msgstr "Μέγιστος αριθμός δωματίων"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:62
+#: includes/class-wp-webhotelier-helper.php:124
+msgid "Max Adults"
+msgstr "Μέγιστος αριθμός ενηλίκων"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:72
+#: includes/class-wp-webhotelier-helper.php:131
+msgid "Max Children"
+msgstr "Μέγιστος αριθμός παιδιών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:82
+#: includes/class-wp-webhotelier-helper.php:138
+msgid "Max Infants"
+msgstr "Μέγιστος αριθμός βρεφών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:92
+#: includes/class-wp-webhotelier-helper.php:145
+msgid "Default Nights"
+msgstr "Προεπιλεγμένος αριθμός νυχτών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:102
+#: includes/class-wp-webhotelier-helper.php:151
+msgid "Default Rooms"
+msgstr "Προεπιλεγμένος αριθμός δωματίων"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:112
+#: includes/class-wp-webhotelier-helper.php:157
+msgid "Default Adults"
+msgstr "Προεπιλεγμένος αριθμός ενηλίκων"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:122
+#: includes/class-wp-webhotelier-helper.php:163
+msgid "Default Children"
+msgstr "Προεπιλεγμένος αριθμός παιδιών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:132
+#: includes/class-wp-webhotelier-helper.php:169
+msgid "Default Infants"
+msgstr "Προεπιλεγμένος αριθμός βρεφών"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:142
+#: includes/class-wp-webhotelier-helper.php:175
+msgid "Days from today that Check-in is allowed"
+msgstr "Ημέρες από σήμερα που επιτρέπεται κράτηση"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:151
+msgid "Opening Day and Month of the Hotel"
+msgstr "Ημέρα και Μήνας ανοίγματος του ξενοδοχείου"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:172
+msgid "Closing Day and Month of the Hotel"
+msgstr "Ημέρα και Μήνας κλεισίματος του ξενοδοχείου"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:194
+#: includes/class-wp-webhotelier-helper.php:221
+msgid "Open WebHotelier in new tab"
+msgstr "Άνοιγμα του WebHotelier σε νέα καρτέλα"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:199
+msgid "Yes"
+msgstr "Ναι"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:200
+msgid "No"
+msgstr "Όχι"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:205
+msgid "Form Orientation:"
+msgstr "Προσανατολισμός φόρμας:"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:211
+#: includes/class-wp-webhotelier-helper.php:208
+msgid "Horizontal"
+msgstr "Οριζόντια"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:212
+#: includes/class-wp-webhotelier-helper.php:207
+msgid "Vertical"
+msgstr "Κάθετα"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:213
+#: includes/class-wp-webhotelier-helper.php:209
+msgid "Fluid"
+msgstr "Προσαρμόσιμο"
+
+#: admin/partials/wp-webhotelier-widget-backend-form.php:217
+msgid "Custom CSS Class:"
+msgstr "Προσαρμοσμένη Κλάση CSS:"
+
+#: blocks/assets/index.js:36
+msgid "WebHotelier Form"
+msgstr "Φόρμα διαθεσιμότητας WebHotelier"
+
+#: includes/class-wp-webhotelier-helper.php:91
+msgid "Options"
+msgstr "Επιλογές"
+
+#: includes/class-wp-webhotelier-helper.php:100
+msgid "Form Fields Settings"
+msgstr "Βασικές Επιλογές"
+
+#: includes/class-wp-webhotelier-helper.php:103
+msgid "WebHotelier URL"
+msgstr "WebHotelier URL"
+
+#: includes/class-wp-webhotelier-helper.php:106
+msgid "This is the URL of the hotel's reservation page"
+msgstr "Αυτό είναι το URL του ξενοδοχείου στο WebHotelier"
+
+#: includes/class-wp-webhotelier-helper.php:113
+msgid "The maximum number of nights one can choose to make a reservation"
+msgstr "Ο μέγιστος αριθμός διανυκτερεύσεων που μπορεί να γίνει σε μια κράτηση"
+
+#: includes/class-wp-webhotelier-helper.php:120
+msgid "The maximum number of rooms one can choose to make a reservation"
+msgstr ""
+"Ο μέγιστος αριθμός δωματίων που μπορεί κανείς να επιλέξει για να κάνει μια "
+"κράτηση"
+
+#: includes/class-wp-webhotelier-helper.php:127
+msgid "The maximum number of adults one can choose to make a reservation"
+msgstr ""
+"Ο μέγιστος αριθμός ενηλίκων που μπορεί να επιλέξει για να κάνει μια κράτηση"
+
+#: includes/class-wp-webhotelier-helper.php:134
+msgid "The maximum number of children one can choose to make a reservation"
+msgstr ""
+"Ο μέγιστος αριθμός παιδιών που μπορεί να επιλέξει για να κάνει μια κράτηση"
+
+#: includes/class-wp-webhotelier-helper.php:141
+msgid "The maximum number of infants one can choose to make a reservation"
+msgstr ""
+"Ο μέγιστος αριθμός των βρεφών που μπορεί να επιλέξει για να κάνει μια κράτηση"
+
+#: includes/class-wp-webhotelier-helper.php:178
+msgid "The number of days from current day that check-in is allowed"
+msgstr "Ο αριθμός των ημερών από την τρέχουσα ημέρα που επιτρέπεται κράτηση"
+
+#: includes/class-wp-webhotelier-helper.php:182
+msgid "Opening and Closing Dates"
+msgstr "Ημερομηνίες ανοίγματος και κλεισίματος του ξενοδοχείου"
+
+#: includes/class-wp-webhotelier-helper.php:185
+msgid ""
+"The day and the month for the Opening and Closing Dates of the hotel "
+"respectively"
+msgstr ""
+"Η ημέρα και ο μήνας για τις ημερομηνίες ανοίγματος και κλεισίματος του "
+"ξενοδοχείου αντίστοιχα"
+
+#: includes/class-wp-webhotelier-helper.php:200
+msgid "Form Customization Settings"
+msgstr "Επιλογές Εμφάνισης"
+
+#: includes/class-wp-webhotelier-helper.php:203
+msgid "Orientation"
+msgstr "Προσανατολισμός φόρμας"
+
+#: includes/class-wp-webhotelier-helper.php:211
+msgid "Select the layout orientation"
+msgstr "Επιλέξτε τον προσανατολισμό της φόρμας"
+
+#: includes/class-wp-webhotelier-helper.php:215
+msgid "Replace Nights with Checkout Date"
+msgstr "Αντικατάσταση Νυχτών με Ημ/νια Αναχώρησης"
+
+#: includes/class-wp-webhotelier-helper.php:227
+msgid "Calendar Date Format"
+msgstr "Μορφή ημερομηνίας ημερολογίου"
+
+#: includes/class-wp-webhotelier-helper.php:230
+msgid ""
+"Using PHP's date format strings, customize the calendar's date format "
+"however you want"
+msgstr ""
+"Χρησιμοποιώντας τις μορφές ημερομηνίας της PHP, προσαρμόστε τη μορφή "
+"ημερομηνίας του ημερολογίου όπως θέλετε"
+
+#: includes/class-wp-webhotelier-helper.php:234
+msgid "Custom CSS Class"
+msgstr "Προσαρμοσμένη Κλάση CSS"
+
+#: includes/class-wp-webhotelier-helper.php:237
+msgid "Add your custom CSS Class which will be assigned to the form element"
+msgstr "Εισάγετε την δική σας CSS Class που θα αντιστοιχιστεί στο form element"
+
+#: includes/class-wp-webhotelier-helper.php:242
+msgid "Custom CSS"
+msgstr "Προσαρμοσμένο CSS"
+
+#: includes/class-wp-webhotelier-helper.php:245
+msgid ""
+"Put your Custom CSS rules here. Useful when you have added a Custom CSS "
+"Class previously"
+msgstr ""
+"Εισάγετε τον δικό σας CSS κώδικα εδώ. Χρήσιμο για τις περιπτώσεις που μια "
+"CSS Class απλά δεν αρκεί"
+
+#: includes/class-wp-webhotelier-widget.php:39
+msgid "Webhotelier Availability Form"
+msgstr "Φόρμα διαθεσιμότητας WebHotelier"
+
+#: includes/class-wp-webhotelier-widget.php:40
+msgid "Display a Webhotelier Availability Form as a widget"
+msgstr "Εμφανίστε μια φόρμα διαθεσιμότητας Webhotelier ως widget"
+
+#: public/partials/wp-webhotelier-form.php:34
+msgid "Check-in"
+msgstr "Άφιξη"
+
+#: public/partials/wp-webhotelier-form.php:40
+msgid "Check-out"
+msgstr "Αναχώρηση"
+
+#: public/partials/wp-webhotelier-form.php:43
+msgid "Nights"
+msgstr "Νύχτες"
+
+#: public/partials/wp-webhotelier-form.php:58
+msgid "Rooms"
+msgstr "Δωμάτια"
+
+#: public/partials/wp-webhotelier-form.php:68
+msgid "Adults"
+msgstr "Ενήλικες"
+
+#: public/partials/wp-webhotelier-form.php:79
+msgid "Children"
+msgstr "Παιδιά"
+
+#: public/partials/wp-webhotelier-form.php:91
+msgid "Infants"
+msgstr "Βρέφη"
+
+#: public/partials/wp-webhotelier-form.php:103
+msgid "Search availability"
+msgstr "Αναζήτηση διαθεσιμότητας"
+
+#~ msgid "Settings saved."
+#~ msgstr "Αποθηκεύτικαν οι ρυθμίσεις"
+
+#, fuzzy
+#~| msgid "Orientation"
+#~ msgid "Direction"
+#~ msgstr "Προσανατολισμός φόρμας"
+
+#, fuzzy
+#~| msgid "Orientation"
+#~ msgid "Gradient Direction"
+#~ msgstr "Προσανατολισμός φόρμας"
+
+#, fuzzy
+#~| msgid "Horizontal"
+#~ msgid "Repeat Horizontally"
+#~ msgstr "Οριζόντια"
+
+#, fuzzy
+#~| msgid "Vertical"
+#~ msgid "Repeat Vertically"
+#~ msgstr "Κάθετα"
+
+#, fuzzy
+#~| msgid "Nights"
+#~ msgid "Lighten"
+#~ msgstr "Νύχτες"
+
+#, fuzzy
+#~| msgid "Nights"
+#~ msgid "right"
+#~ msgstr "Νύχτες"
+
+#, fuzzy
+#~| msgid "Nights"
+#~ msgid "height"
+#~ msgstr "Νύχτες"
+
+#, fuzzy
+#~| msgid "Default Rooms"
+#~ msgid "Default"
+#~ msgstr "Προεπιλεγμένος αριθμός δωματίων"
+
+#, fuzzy
+#~| msgid "Nights"
+#~ msgid "Right"
+#~ msgstr "Νύχτες"
+
+#, fuzzy
+#~| msgid "You do not have permission to install plugin updates"
+#~ msgid "Error: You do not have permission to do that."
+#~ msgstr "Δεν έχετε δικαιώματα εγκατάστασης αναβαθμίσεων για plugins"
+
+#~ msgid "Days"
+#~ msgstr "Ημέρες"
+
+#~ msgid "Reset to default values"
+#~ msgstr "Αποθηκεύτηκαν οι προεπιλεγμένες ρυθμίσεις"
+
+#~ msgid "The default number of nights that will be pre-selected"
+#~ msgstr "Ο προεπιλεγμένος αριθμός νυχτών"
+
+#, fuzzy
+#~| msgid "Maximum  Nights:"
+#~ msgid "Maximum Nights"
+#~ msgstr "Μέγιστος αριθμός νυχτών:"
+
+#, fuzzy
+#~| msgid "Maximum  Rooms:"
+#~ msgid "Maximum Rooms"
+#~ msgstr "Μέγιστος αριθμός δωματίων:"
+
+#, fuzzy
+#~| msgid "Maximum  Adults:"
+#~ msgid "Maximum Adults"
+#~ msgstr "Μέγιστος αριθμός ενηλίκων:"
+
+#, fuzzy
+#~| msgid "Maximum  Children:"
+#~ msgid "Maximum Children"
+#~ msgstr "Μέγιστος αριθμός παιδιών:"
+
+#, fuzzy
+#~| msgid "Maximum  Infants:"
+#~ msgid "Maximum Infants"
+#~ msgstr "Μέγιστος αριθμός βρεφών:"
+
+#, fuzzy
+#~| msgid "Maximum  Nights:"
+#~ msgid "Default  Nights:"
+#~ msgstr "Μέγιστος αριθμός νυχτών:"
+
+#, fuzzy
+#~| msgid "Maximum  Rooms:"
+#~ msgid "Default Rooms:"
+#~ msgstr "Μέγιστος αριθμός δωματίων:"
+
+#, fuzzy
+#~| msgid "Maximum  Adults:"
+#~ msgid "Default Adults:"
+#~ msgstr "Μέγιστος αριθμός ενηλίκων:"
+
+#, fuzzy
+#~| msgid "Max Children"
+#~ msgid "Default Children:"
+#~ msgstr "Μέγιστος αριθμός παιδιών"
+
+#, fuzzy
+#~| msgid "Maximum  Infants:"
+#~ msgid "Default Infants:"
+#~ msgstr "Μέγιστος αριθμός βρεφών:"
+
+#~ msgid "Open WebHotelier in new tab:"
+#~ msgstr "Άνοιγμα του WebHotelier σε νέα καρτέλα:"
+
+#~ msgid "Number of Nights or Checkout Date"
+#~ msgstr "Αριθμός νυχτών ή ημερομηνία Checkout"
+
+#~ msgid ""
+#~ "Select if the customer selects the number of nights to stay or the "
+#~ "checkout date"
+#~ msgstr ""
+#~ "Επιλέξτε εάν ο επισκέπτης επιλέγει τον αριθμό των διανυκτερεύσεων για "
+#~ "διαμονή ή την ημερομηνία Checkout"
+
+#~ msgid "vertical"
+#~ msgstr "Κάθετα"
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s."
+#~ msgstr ""
+#~ "Υπάρχει μια νέα έκδοση του %1$s  διαθέσιμη. %2$sΠροβολή έκδοσης.  %3$s "
+#~ "λεπτομέρειες%4$s."
+
+#~ msgid ""
+#~ "There is a new version of %1$s available. %2$sView version %3$s details"
+#~ "%4$s or %5$supdate now%6$s."
+#~ msgstr ""
+#~ "Υπάρχει μια νέα έκδοση του %1$s  διαθέσιμη. %2$sΠροβολή έκδοσης.  %3$s "
+#~ "λεπτομέρειες%4$s. ή %5$sαναβαθμίστε τώρα%6$s."
+
+#~ msgid "Error"
+#~ msgstr "Σφάλμα"
+
+#~ msgid ""
+#~ "<em>Options Page Created with <a href='http://titanframework.net?"
+#~ "utm_source=admin&utm_medium=admin footer'>Titan Framework</a></em>"
+#~ msgstr ""
+#~ "<em>Οι σελίδα επιλογών δημιουργήθηκε με το <a href='http://titanframework."
+#~ "net?utm_source=admin&utm_medium=admin footer'>Titan Framework</a></em>"
+
+#~ msgid "Settings reset to default."
+#~ msgstr "Αποθηκεύτικαν οι προεπιλιγμένες ρυθμίσεις"
+
+#~ msgid "Security check failed, please refresh the page and try again."
+#~ msgstr ""
+#~ "Ο έλεγχος ασφαλείας απέτυχε. Παρακαλούμε ανανεώστε την σελίδα και "
+#~ "προσπαθήστε ξανά."
+
+#~ msgid "Something went wrong"
+#~ msgstr "Κάτι πήγε στραβά"
+
+#~ msgid "Click me"
+#~ msgstr "Κάντε Click"
+
+#~ msgid "Please wait..."
+#~ msgstr "Παρακαλώ περιμένετε..."
+
+#~ msgid "Theme License"
+#~ msgstr "Άδεια Λειτουργίας θέματος"
+
+#, fuzzy
+#~| msgid "Theme License"
+#~ msgid "Deactivate License"
+#~ msgstr "Άδεια Λειτουργίας θέματος"
+
+#, fuzzy
+#~| msgid "Theme License"
+#~ msgid "Activate License"
+#~ msgstr "Άδεια Λειτουργίας θέματος"
+
+#, fuzzy
+#~| msgid "Form Orientation:"
+#~ msgid "Documentation"
+#~ msgstr "Προσανατολισμός φόρμας:"

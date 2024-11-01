@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "version": "2.0.0",
+  "apiVersion": 3,
+  "title": "WebHotelier Block Form",
+  "name": "wp-webhotelier/block",
+  "category": "widgets",
+  "icon": "forms",
+  "supports": {
+    "html": false,
+    "customClassName": false
+  },
+  "textdomain": "wp-webhotelier",
+  "editorScript": "file:./index.js"
+}
